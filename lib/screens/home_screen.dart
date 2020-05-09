@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_social_ui/widgets/following_users.dart';
+
+import '../data/data.dart';
+import '../models/user_model.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -44,6 +48,11 @@ class _HomeScreenState extends State<HomeScreen>
             Tab(text: 'Latest'),
           ],
         ),
+      ),
+      body: ListView(
+        children: <Widget>[
+          FollowingUsers(),
+        ],
       ),
     );
   }
