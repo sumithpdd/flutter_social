@@ -2,15 +2,25 @@
 
 A new Flutter project.
 
-## Getting Started
+##   Social Media App
+ 
+- Project Overview: Social Media App (0:48)
+- Data and Models (1:44)
+- Login Screen UI (11:50)
+- Login Screen Custom Clipper (8:19)
+- Home Screen App Bar and Tab Bar (6:45)
+- Following Users ListView (7:59)
+- Posts PageView Carousel (13:44)
+- Animated PageView (3:30)
+- Sidebar Menu (Drawer) (10:25)
+- Profile Screen Custom Clipper (11:25)
+- Finishing Our Profile Screen (5:53)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+***
+![Alt text](/screenshots/flutter_01.png?raw=true "Home screen")
+***
+![Alt text](/screenshots/flutter_02.png?raw=true "Drawer")
+***
+![Alt text](/screenshots/flutter_03.png?raw=true "Profile screen")
+***
+![Alt text](/screenshots/flutter_04.png?raw=true "Login screen")
