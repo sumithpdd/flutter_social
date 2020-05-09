@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_social_ui/screens/home_screen.dart';
 import 'package:flutter_social_ui/widgets/curve_clipper.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -15,8 +16,8 @@ class _LoginScreenState extends State<LoginScreen> {
         height: MediaQuery.of(context).size.height,
         child: Column(children: <Widget>[
           ClipPath(
-                 clipper: CurveClipper(),
-                      child: Image(
+            clipper: CurveClipper(),
+            child: Image(
               height: MediaQuery.of(context).size.height / 2.5,
               width: double.infinity,
               image: AssetImage('assets/images/login_background.jpg'),
@@ -74,7 +75,12 @@ class _LoginScreenState extends State<LoginScreen> {
             height: 40.0,
           ),
           GestureDetector(
-            onTap: () {},
+            onTap: () => Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                builder: (_) => HomeScreen(),
+              ),
+            ),
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 60.0),
               alignment: Alignment.center,
