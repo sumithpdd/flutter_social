@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_social_ui/data/data.dart';
 import 'package:flutter_social_ui/screens/home_screen.dart';
 import 'package:flutter_social_ui/screens/login_screen.dart';
+import 'package:flutter_social_ui/screens/profile_screen.dart';
 
 class CustomDrawer extends StatelessWidget {
   _buildDrawerOption(Icon icon, String title, Function onTap) {
@@ -104,7 +105,9 @@ class CustomDrawer extends StatelessWidget {
             () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(
-                builder: (_) => HomeScreen(),
+                builder: (_) => ProfileScreen(
+                  user: currentUser,
+                ),
               ),
             ),
           ),
